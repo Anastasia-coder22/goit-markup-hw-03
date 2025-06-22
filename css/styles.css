@@ -20,6 +20,9 @@ a {
     text-decoration: none;
 }
 
+.img {
+    display: block;
+}
 /* common */
 
 .container {
@@ -218,9 +221,9 @@ a {
 .user-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
-    width: 264px;
     overflow: hidden;
     text-align: center;
+    width: calc((100% - 72px) / 4)
 }
 
 .element-team {
